@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Video Load Error</title>
+    <style>
+        body {
+            background-color: #f8d7da; /* light red/pink background */
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #721c24;
+        }
+        em {
+            font-style: italic;
+            font-weight: bold;
+        }
+        video {
+            display: block;
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <video controls>
+        <source src="nonexistent-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    <p><em>Error:</em> The video file could not be loaded.</p>
+</body>
+</html>
